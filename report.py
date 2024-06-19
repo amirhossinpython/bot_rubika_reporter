@@ -9,10 +9,13 @@ except ImportError :
 import time
 import random
 
+print(
+    "لطفا به پیوی ربات برید وبهش پیام بدید تا عملیات شروع بشه ویا در ذخیره شده های ربات پیام بدید"
+)
 # نشستی که ربات روی حساب شما داره
 bot = Client(name='Reporter', display_welcome=False)
 
-    
+ 
 @bot.on_message_updates()
 async def updates(update: Updates):
     
@@ -30,7 +33,7 @@ async def updates(update: Updates):
     # گزارشات به طور راندم
     res=random.choice(list_report)
     object_guid ="""
-        گوید حساب را وارد کنید 
+        u0DYvPK053cf98fa0ce92eb41bce7c41    
     """
     # محل گذاشتن گوید کاربر
     
