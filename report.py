@@ -30,7 +30,7 @@ async def updates(update: Updates):
     # گزارشات به طور راندم
     res=random.choice(list_report)
     object_guid ="""
-        u0DYvPK053cf98fa0ce92eb41bce7c41    
+        گوید حساب را وارد کنید 
     """
     # محل گذاشتن گوید کاربر
     
